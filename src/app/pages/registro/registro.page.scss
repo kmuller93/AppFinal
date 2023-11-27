@@ -1,7 +1,7 @@
-.todo{
-    margin: auto;
-    margin-top: 15vh;
-    margin-bottom: auto;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 @keyframes spin{
@@ -12,13 +12,12 @@
     
 .spinning{
     animation: spin 3s infinite;
-    animation-timing-function:cubic-bezier(1, 0, 0, 1);
 }
 
 .image{
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 2vh;
     img{        
         display: block;
@@ -27,17 +26,19 @@
     }  
 }
 
-#logi-btn{
+.case{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+h1{
     text-align: center;
     color: #009f3a;
+    opacity: 0.7;
 }
 
-#recu{
-    margin: auto;
-    color: rgb(55, 55, 230);
-}
-
-#back{
-    
-    margin-bottom: 5%;
+#link{
+    color: #009f3a;
 }

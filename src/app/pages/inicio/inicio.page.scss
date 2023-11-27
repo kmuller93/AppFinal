@@ -1,11 +1,5 @@
-.todo{
-    margin: auto;
-    margin-top: 15vh;
-    margin-bottom: auto;
-}
-
 .heading{
-    margin-top: 10px;
+    margin-top: 10vh;
     text-align: center;
     h1{
         font-size: 2rem;
@@ -24,9 +18,7 @@
     }
 }
 
-p{
-    color: #838383;
-}
+
 
 @keyframes spin{
 
@@ -36,13 +28,13 @@ p{
     
 .spinning{
     animation: spin 3s infinite;
-    animation-timing-function:cubic-bezier(1, 0, 0, 1);
+    animation-timing-function: linear;
 }
 
 .image{
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 2vh;
     img{        
         display: block;
@@ -51,9 +43,10 @@ p{
     }  
 }
 
-.parrafo{
-    margin: auto;
+.log{
     text-align: center;
+    margin-top: 1%;
+
 }
 
 .social-login{
@@ -71,10 +64,39 @@ p{
     }
 }
 
-#recu{
-    margin: auto;
-    color: rgb(55, 55, 230);
+.twitter{
+    --background: #00acee;
+    margin-right: 5%;
+}
+.facebook{
+    --background: #4267b2;
+    margin-right: 5%;
+}
+.instagram{
+    --background: #4c68d7 ;
+    margin-right: 5%;
 }
 
+.email-login{
+    margin-top: 2%;
+    text-align: center;
+    p{
+        color: #838383;
+    }
 
+    .signup{
+        width: 50%;
+        height: 10%;
+        font-size: 1em;
+    }
+}
 
+#home-btn{
+    margin-top: 2%;
+    text-align: center;
+    .home{
+        width: 50%;
+        height: 10%;
+        font-size: 1em;
+    }
+}

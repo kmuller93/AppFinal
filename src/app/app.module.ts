@@ -7,6 +7,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+<<<<<<< HEAD
 
 //============== Firebase ==============
 
@@ -27,6 +28,14 @@ import { environment } from 'src/environments/environment';
 
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+=======
+import { EmailComposer } from '@awesome-cordova-plugins/email-composer/ngx';
+
+@NgModule({
+  declarations: [AppComponent],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, EmailComposer, HttpClientModule],
+>>>>>>> ca8d6754b729025d808eca360eebd19b06297d88
   bootstrap: [AppComponent],
 })
 export class AppModule {}
