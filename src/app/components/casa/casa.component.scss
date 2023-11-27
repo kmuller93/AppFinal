@@ -13,27 +13,27 @@ ion-card {
   }
   
   @keyframes spin{
-  
-    from {transform: rotate(0deg); }
-    to { transform: rotate(360deg);}
-  }
+
+    from {transform: rotateY(0deg); }
+    to { transform: rotateY(360deg);}
+    }
     
-  .spinning{
+.spinning{
     animation: spin 3s infinite;
-    animation-timing-function: linear;
-  }
-  
-  .image{
+    animation-timing-function:cubic-bezier(1, 0, 0, 1);
+}
+
+.image{
     display: flex;
     justify-content: center;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 2vh;
     img{        
         display: block;
-        height: 5vh;
+        height: 10vh;
         
     }  
-  }
+}
   
   .buttom{
     margin-top: 230%;
