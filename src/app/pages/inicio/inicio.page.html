@@ -1,0 +1,32 @@
+<ion-content [fullscreen]="true">
+  <div class="todo">
+    <ion-grid>
+      <ion-row>
+        <ion-col class="image">
+          <img src="../../../assets/img/logo.png" class="spinning" alt="logo">
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="heading">
+          <h1>Bienvenido </h1>
+          <h2>a Circular</h2>
+          <p>Ingrese a su cuenta o registre una nueva</p>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <p class="parrafo">Ingresar con correo</p>
+          <ion-button expand="block" color="success" routerLink="/login">Ingresar</ion-button>
+          
+        </ion-col>
+        <ion-col>
+          <p class="parrafo">¿No tienes cuenta?</p>
+          <ion-button expand="block" color="success" routerLink="/registro">Registrarse</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <p id="recu">¿Olvidaste tu contraseña?</p>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

@@ -1,0 +1,80 @@
+.todo{
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: auto;
+}
+
+.heading{
+    margin-top: 10px;
+    text-align: center;
+    h1{
+        font-size: 2rem;
+        color: #009f3a;
+        opacity: 0.8;
+        margin-bottom: 0;
+    }
+    h2{
+        margin-top: 0;
+        font-size: 1.5rem;
+        color: #009f3a;
+        opacity: 0.7;
+    }
+    p{
+        color: #838383;
+    }
+}
+
+p{
+    color: #838383;
+}
+
+@keyframes spin{
+
+    from {transform: rotateY(0deg); }
+    to { transform: rotateY(360deg);}
+    }
+    
+.spinning{
+    animation: spin 3s infinite;
+    animation-timing-function:cubic-bezier(1, 0, 0, 1);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 2vh;
+    img{        
+        display: block;
+        height: 10vh;
+        
+    }  
+}
+
+.parrafo{
+    margin: auto;
+    text-align: center;
+}
+
+.social-login{
+    margin-top: 2%;
+    text-align: center;
+    p{
+        color: #838383;
+    }
+    ion-button{
+        width: 25%;
+        height: 10%;
+    }
+    ion-icon{
+        font-size: 1.6rem;
+    }
+}
+
+#recu{
+    margin: auto;
+    color: rgb(55, 55, 230);
+}
+
+
+
