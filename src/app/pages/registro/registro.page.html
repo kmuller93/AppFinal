@@ -8,20 +8,28 @@
   <ion-card>
     <form [formGroup]="formularioRegistro">
       <ion-item>
-        <ion-label class="ion-text-center" position="floating">Usuario</ion-label>
-        <ion-input formControlName="nombre" type="text"></ion-input>
+        <ion-label class="ion-text-center" position="floating">Nombre</ion-label>
+        <ion-input formControlName="nombre" type="text">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </ion-input>
       </ion-item>
       <ion-item>
         <ion-label class="ion-text-center"  position="floating">Contraseña</ion-label>
-        <ion-input formControlName="password" type="password"></ion-input>
+        <ion-input formControlName="password" type="password">
+          <ion-icon name="lock-closed-outline"></ion-icon>
+        </ion-input>
       </ion-item>
       <ion-item>
         <ion-label class="ion-text-center"  position="floating">Repetir Contraseña</ion-label>
-        <ion-input formControlName="confirmacion-password" type="password"></ion-input>
+        <ion-input formControlName="confirmacion-password" type="password">
+          <ion-icon name="lock-closed-outline"></ion-icon>
+        </ion-input>
       </ion-item>
       <ion-item>
         <ion-label class="ion-text-center"  position="floating">Email</ion-label>
-        <ion-input formControlName="email" type="text"></ion-input>
+        <ion-input formControlName="email" type="text">
+          <ion-icon name="mail-outline"></ion-icon>
+        </ion-input>
       </ion-item>
     </form>
   </ion-card>
